@@ -1,0 +1,7 @@
+Config,Vertices,Edges,Algorithm,AvgTimeNs,AvgTimeMs,MSTWeight,Connected,EdgeExams,Comparisons,DSUOrHeapOps,TotalOps
+Small,10,30,Kruskal,12551,0.0126,160,true,11,110,86,207
+Small,10,30,Prim,15789,0.0158,160,true,60,122,41,223
+Medium,100,500,Kruskal,141949,0.1419,1339,true,250,3836,2209,6295
+Medium,100,500,Prim,189259,0.1893,1339,true,1000,4873,749,6622
+Large,1000,5000,Kruskal,1509505,1.5095,12805,true,3298,50403,29641,83342
+Large,1000,5000,Prim,1715183,1.7152,12805,true,10000,83180,8318,101498

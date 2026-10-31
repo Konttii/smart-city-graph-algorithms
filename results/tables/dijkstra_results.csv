@@ -1,0 +1,4 @@
+Config,Vertices,Edges,Algorithm,AvgTimeNs,AvgTimeMs,ReachableCount,EdgeRelaxations,Comparisons,HeapOps,TotalOps
+Small,10,30,Dijkstra,13703,0.0137,8,26,66,22,114
+Medium,100,500,Dijkstra,225110,0.2251,100,500,2144,290,2934
+Large,1000,5000,Dijkstra,1192858,1.1929,994,4972,30274,2854,38100

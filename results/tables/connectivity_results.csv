@@ -1,0 +1,13 @@
+Config,Vertices,Edges,GraphType,Algorithm,AvgTimeNs,AvgTimeMs,ValidOrSCCCount,PrimaryOps,EdgeExams,AuxOps,TotalOps
+Small,10,30,DAG,TopologicalSort,10281,0.0103,DAG=true,20,60,0,80
+Small,10,30,Cyclic,TopologicalSort,2715,0.0027,DAG=false,12,34,0,46
+Small,10,30,DAG,TarjanSCC,9068,0.0091,SCCs=10,10,30,20,60
+Small,10,30,Cyclic,TarjanSCC,4959,0.0050,SCCs=3,10,30,20,60
+Medium,100,500,DAG,TopologicalSort,30603,0.0306,DAG=true,200,1000,0,1200
+Medium,100,500,Cyclic,TopologicalSort,15076,0.0151,DAG=false,100,500,0,600
+Medium,100,500,DAG,TarjanSCC,27020,0.0270,SCCs=100,100,500,200,800
+Medium,100,500,Cyclic,TarjanSCC,35757,0.0358,SCCs=1,100,500,200,800
+Large,1000,5000,DAG,TopologicalSort,362704,0.3627,DAG=true,2000,10000,0,12000
+Large,1000,5000,Cyclic,TopologicalSort,162369,0.1624,DAG=false,1006,5028,0,6034
+Large,1000,5000,DAG,TarjanSCC,238553,0.2386,SCCs=1000,1000,5000,2000,8000
+Large,1000,5000,Cyclic,TarjanSCC,270752,0.2708,SCCs=21,1000,5000,2000,8000

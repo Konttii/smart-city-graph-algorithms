@@ -1,0 +1,16 @@
+Config,Vertices,Edges,Algorithm,AvgTimeNs,AvgTimeMs,TotalOps
+Small,10,30,Kruskal,12551,0.0126,207
+Small,10,30,Prim,15789,0.0158,223
+Small,10,30,TopologicalSort(DAG),10281,0.0103,80
+Small,10,30,TarjanSCC(Cyclic),4959,0.0050,60
+Small,10,30,Dijkstra,13703,0.0137,114
+Medium,100,500,Kruskal,141949,0.1419,6295
+Medium,100,500,Prim,189259,0.1893,6622
+Medium,100,500,TopologicalSort(DAG),30603,0.0306,1200
+Medium,100,500,TarjanSCC(Cyclic),35757,0.0358,800
+Medium,100,500,Dijkstra,225110,0.2251,2934
+Large,1000,5000,Kruskal,1509505,1.5095,83342
+Large,1000,5000,Prim,1715183,1.7152,101498
+Large,1000,5000,TopologicalSort(DAG),362704,0.3627,12000
+Large,1000,5000,TarjanSCC(Cyclic),270752,0.2708,8000
+Large,1000,5000,Dijkstra,1192858,1.1929,38100
